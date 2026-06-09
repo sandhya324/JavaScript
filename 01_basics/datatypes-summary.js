@@ -14,7 +14,7 @@ let userEmail;  //undefine
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 const bigNumber = 857857875847589475n;
 
@@ -30,10 +30,44 @@ let myObj = {
     age: 22
 }
 
-const myFunction = function(){
-    console.log("Hello world");
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
+
+// console.log(typeof bigNumber);
+// console.log(typeof myFunction ); // but it is called object function
+
+
+
+
+
+
+
+//------------------------lecture-10------------------------------------------
+//Stack (primitive) => return copy , Heap (Non-Primitive) => return reference
+
+let myYoutubename = "SanDhya";
+let anothername = myYoutubename
+
+
+// ------------value change------------
+anothername = "sandhya"
+// console.log(myYoutubename);
+
+// console.log(anothername);
+
+
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl"
 }
 
-console.log(typeof bigNumber);
-console.log(typeof myFunction ); // but it is called object function
+let userTwo = user
+userTwo.email = "sdhya3842@gmail.com"
+
+console.log(user.email);
+console.log(userTwo.email);
+
+
 
