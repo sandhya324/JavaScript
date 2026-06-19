@@ -1,7 +1,7 @@
 // array
 
 const myArr = [0, 1, 2, 3, 4, 5, true, "sandu"];
-console.log(myArr[1]);
+// console.log(myArr[1]);
 
 //JS array copy oprations create shallow copies
 //shallor copy - A shallow copy of an object is a copy whose properties share the same references (point to the same underlying values) as those of the source object from which to the copy was made.)
@@ -38,6 +38,6 @@ const myArr2 = new Array(1, 2, 3, 4);
 // console.log("B", myArr);
 
 
-const myn2 = myArr.splice(1, 3);
-console.log(myn2);
-console.log("C", myArr);
+// const myn2 = myArr.splice(1, 3);
+// console.log(myn2);
+// console.log("C", myArr);
