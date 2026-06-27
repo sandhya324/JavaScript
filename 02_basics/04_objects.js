@@ -81,13 +81,13 @@ const course = {
 // navbar(company = "sandhya")
 
 
-{
-    name: "sandhya",
-    price: "free",
-    coursename: "js in hindi"
-}
-{
-    {},
-    {}, 
-    {}
-}
+// {
+//     name: "sandhya",
+//     price: "free",
+//     coursename: "js in hindi"
+// }
+// {
+//     {},
+//     {}, 
+//     {}
+// }
